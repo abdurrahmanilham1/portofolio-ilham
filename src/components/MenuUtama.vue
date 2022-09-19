@@ -64,7 +64,7 @@
         <div class="pintro2">
           <h1 class="h1">about</h1>
           <p>
-            perkenalkan nama saya muhammad abdurrahman ilham saya berumur 18
+            perkenalkan nama saya Muhammad Abdurrahman Ilham saya berumur 18
             tahun , saya dibimbing oleh pak andrawan erlangga, saya belajar
             frontend, saya belajar pemrograman menggunakan sistem operasi
             windows,pada awalnya saya hanya menggunakann web jsfiddle, sampai
