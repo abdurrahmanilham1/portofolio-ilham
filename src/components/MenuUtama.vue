@@ -75,76 +75,58 @@
           </p>
         </div>
       </b-col>
-      <b-col v-else-if="index === 2" cols="9" class="intro3">
+      <b-col v-else-if="index === 2" cols="12" sm="9" class="intro3">
         <div class="pintro3">
           <h1 class="data-pribadi">data pribadi</h1>
-          <ul class="list-group">
-            <li class="list-group-item">nama : muhammad abdurrahman ilham</li>
-            <li class="list-group-item">
-              alamat : villa bekasi indah 2 blok j11 no9
-            </li>
-            <li class="list-group-item">TTL : bekasi,22 maret, 2005</li>
-            <li class="list-group-item">no tlp : 088211911963</li>
-            <li class="list-group-item">jenis kelamin : laki-laki</li>
-            <li class="list-group-item">agama : islam</li>
-            <li class="list-group-item">kewarganegaraan : indonesia</li>
-            <li class="list-group-item">
-              Email: ilhamabdurrahmanahmaf@gmail.com
-            </li>
-            <li class="list-group-item">kewarganegaraan : indonesia</li>
-            <li class="list-group-item">status : belum menikah</li>
+          <ul>
+            <li>nama : muhammad abdurrahman ilham</li>
+            <li>alamat : villa bekasi indah 2 blok j11 no9</li>
+
+            <li>TTL : bekasi,22 maret,2005</li>
+
+            <li>no tlp : 088211911963</li>
+            <li>jenis kelamin : laki-laki</li>
+            <li>agama : islam</li>
+            <li>kewarganegaraan : indonesia</li>
+            <li>Email: ilhamabdurrahmanahmaf@gmail.com</li>
+            <li>kewarganegaraan : indonesia</li>
+            <li>status : belum menikah</li>
           </ul>
-          <ul class="list-group">
+          <ul>
             <h1 class="pengalaman">pengalaman</h1>
-            <li class="list-group-item">anggota osis smk 10 november</li>
-            <li class="list-group-item">
-              anggota marawis smpn 13 tambun selatan
-            </li>
-            <li class="list-group-item">
-              prakerin di pt sumber sinar sejahtera
-            </li>
+            <li>anggota osis smk 10 november</li>
+            <li>anggota marawis smpn 13 tambun selatan</li>
+            <li>prakerin di pt sumber sinar sejahtera</li>
           </ul>
           <h1 class="hobi">hobi</h1>
-          <ul class="list-group">
-            <li class="list-group-item">bermain badminton</li>
-            <li class="list-group-item">bermain gitar</li>
-            <li class="list-group-item">joging</li>
+          <ul>
+            <li>bermain badminton</li>
+            <li>bermain gitar</li>
+            <li>joging</li>
           </ul>
         </div>
       </b-col>
       <b-col v-else-if="index === 3" cols="9" class="intro4">
         <div class="pintro4">
-          <h1>hubungi kami</h1>
+          <h1 class="hubungiKami">hubungi kami</h1>
 
           <div id="ikon-sosmed" class="mt-4 mb-5">
             <div>
-              <a
-                href="https://twitter.com/jokowi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-              >
-                <b-avatar icon="twitter" class="sosmed2"></b-avatar>
-              </a>
-            </div>
-            <div>
               <a href="https://id-id.facebook.com/ahmad.ilham.7587">
-                <b-avatar icon="facebook" class="sosmed2"></b-avatar>
+                <b-avatar icon="facebook" class="contact-me"></b-avatar>
               </a>
-            </div>
 
-            <div>
-              <a href="https://www.instagram.com/iam.bedur17/?hl=id">
-                <b-avatar icon="instagram" class="sosmed2"></b-avatar>
-              </a>
-            </div>
-            <div>
               <a
                 href="https://id.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"
               >
-                <b-avatar icon="linkedin" class="sosmed2"></b-avatar>
+                <b-avatar icon="linkedin" class="contact-me"></b-avatar>
               </a>
-            </div>
-            <div>
-              <a href="https://www.youtube.com/watch?v=l-GVTRXT9GA">
-                <b-avatar icon="youtube" class="sosmed2"></b-avatar>
+
+              <a href="">
+                <b-avatar icon="whatsapp" class="contact-me"></b-avatar>
+              </a>
+              <a href="">
+                <b-avatar icon="envelope" class="contact-me"></b-avatar>
               </a>
             </div>
           </div>
@@ -214,17 +196,13 @@ export default {
   text-align: left;
   color: white;
   font-size: 25px;
-  font-weight: 500;
-  margin-left: -20px;
-  width: 110%;
+  font-weight: 500px;
+  margin-top: 60px;
 }
 .item-navigasi {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 50px;
-  margin-left: -20;
-  margin-right: -20;
-  width: 110%;
 }
 .item-navigasi:hover {
   background-color: #18325ef7;
@@ -242,7 +220,7 @@ export default {
 }
 .intro2 {
   background-image: url("../assets/about-bckgrnd.jpg");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat repeat;
   background-size: cover;
   background-position: center;
 }
@@ -250,7 +228,6 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("../assets/contact-aku.jpeg");
 }
 .h1 {
   text-decoration: underline;
@@ -268,31 +245,43 @@ export default {
   color: black;
   font-weight: bold italic;
   font-style: Monospace;
-  margin-right: 400px;
   text-align: left;
   margin-top: 15px;
 }
 .pintro4 {
   font-size: 25px;
   color: black;
-  font-weight: bold italic;
+  font-weight: bolder;
   font-style: Monospace;
-  margin-right: 700px;
+
+  padding: 10px;
+  margin-top: 25px;
 }
+.contact-me {
+  margin-left: 100px;
+  margin-top: 28px;
+}
+
 .intro4 {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-  background-image: url("../assets/contact-aku.jpeg");
+  background-color: white;
 }
 .tombol-menu {
   position: absolute;
   top: 7px;
   left: 5px;
   max-width: 100px;
-  z-index: 1;
+  z-index: 3;
   display: none;
 }
+.hubungiKami {
+  position: center;
+  margin-right: solid;
+  margin-top: 25px;
+}
+
 .show {
   display: block;
 }
@@ -304,6 +293,7 @@ export default {
   .side-menu {
     position: absolute;
     width: 300px;
+    z-index: 2;
   }
   .main-menu {
     min-height: 800px;
@@ -311,6 +301,15 @@ export default {
   }
   .tombol-menu {
     display: block;
+  }
+  .intro2 {
+    width: 100%;
+  }
+  .intro3 {
+    margin: 10px;
+  }
+  .contact-me {
+    margin-left: 0px;
   }
 }
 </style>
